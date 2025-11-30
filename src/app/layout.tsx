@@ -7,16 +7,11 @@ export const metadata: Metadata = {
   description: "Sistema de amigo secreto da OUS",
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({children,}: 
+  Readonly<{children: React.ReactNode;}>) {
   return (
     <html lang="pt-br">
-      <body
-        className="bg-gray950 text-gray-100"
-      >
+      <body className="bg-zinc-950 text-[#F6F6F6]">
         {children}
       </body>
     </html>
