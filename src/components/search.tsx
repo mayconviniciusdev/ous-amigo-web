@@ -23,7 +23,7 @@ export const Search = ({id}: Props) => {
   }
 
   return (
-    <section className="border-t-2 border-[#004369]">
+    <section className="mt-[-120px]">
       {!results && <SearchForm onSearchButton={handleSearchButton} loading={loading}/>}
       {results && <SearchRevel results={results}/>}
     </section>

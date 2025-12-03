@@ -11,7 +11,7 @@ export default function RootLayout({children,}:
   Readonly<{children: React.ReactNode;}>) {
   return (
     <html lang="pt-br">
-      <body className="bg-zinc-950 text-[#F6F6F6]">
+      <body className="bg-[#F6F6F6]">
         {children}
       </body>
     </html>
