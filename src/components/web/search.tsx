@@ -2,9 +2,9 @@
 
 import { SearchResult } from "@/types/searchResult";
 import { useState } from "react";
-import { SearchForm } from "./searchForm";
+import { SearchForm } from "../searchForm";
 import * as api from '@/api/web'
-import { SearchRevel } from "./searchReveal";
+import { SearchRevel } from "../searchReveal";
 
 type Props = {id: number}
 export const Search = ({id}: Props) => {

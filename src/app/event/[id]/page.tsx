@@ -1,5 +1,5 @@
 import * as api from "@/api/web";
-import { Search } from "@/components/search";
+import { Search } from "@/components/web/search";
 import { redirect } from "next/navigation";
 
 type Props = {params: {id: string}}
