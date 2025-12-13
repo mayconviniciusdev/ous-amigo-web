@@ -16,17 +16,7 @@ const Page = async ({params}: Props) => {
           <img src="/logo-OUSamigo.png" alt="Logo" className="w-55 object-contain mb-4"/>
           <h1 className="text-4xl">{eventItem.title}</h1>
           <p className="text-zinc-400 mb-8">{eventItem.description}</p>
-          <p className="text-lg mb-2">Quem está participando?</p>
-
-          <table className="w-full">
-            <tbody>
-              {eventItem.people?.map((person) => (
-                <tr key={person.id} className="border-2 border-zinc-700 bg-zinc-800">
-                  <td className="py-4 pl-2 text-sm text-white/50">{person.name}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
+          
         </div>
         <Search id={eventItem.id}/>
       </div>
